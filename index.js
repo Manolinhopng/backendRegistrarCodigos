@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-  origin: "https://frontend-registrar-codigos.vercel.app/",
+  origin: "https://frontend-registrar-codigos.vercel.app",
   methods: ["GET", "POST", "PATCH"],
   allowedHeaders: ["Content-Type", "Authorization"]
 };
